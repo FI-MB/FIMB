@@ -1,0 +1,8 @@
+Detected MB input error
+Receiving directly 8e-06 MB in 1 rounds, taking 0.064189 seconds
+Sending by number 1.6e-05 MB in 2 rounds, taking 0.000101975 seconds
+Sending directly 0.208865 MB in 4 rounds, taking 9.4869e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.131724 seconds 
+Data sent = 0.208881 MB in ~8 rounds (party 0 only; use '-v' for more details)
+Global data sent = 0.208889 MB (all parties)

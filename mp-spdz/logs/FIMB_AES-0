@@ -1,0 +1,31 @@
+Using statistical security parameter 40
+Size of IV_c: 8
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+true match
+true match
+true match
+true match
+true match
+true match
+true match
+true match
+Final checking result:1
+The key stream for 1: -130476215502525035532880054172051132622
+The key stream for 2: -131893772418851345071950308746955701347
+The key stream for 3: 31188742171247268511373000236329095726
+The key stream for 4: -42848268902476466509640819453453066950
+The key stream for 5: -130476215502525035532880054172051132622
+The key stream for 6: -131893772418851345071950308746955701347
+The key stream for 7: 31188742171247268511373000236329095726
+The key stream for 8: -42848268902476466509640819453453066950
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.670786 seconds 
+Data sent = 1.01503 MB in ~3624 rounds (party 0 only; use '-v' for more details)
+Global data sent = 2.03006 MB (all parties)

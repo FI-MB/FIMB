@@ -1,5 +1,20 @@
 Using statistical security parameter 40
+No modulus found in Player-Data//2-Dp-192/Params-Data, generating 192-bit prime
+Compiler: ./compile.py jason_aes3 -B 128
+Spent 0.224244 seconds (0.014152 MB, 3033 rounds) on the online phase and 0.596373 seconds (1.00088 MB, 484 rounds) on the preprocessing/offline phase.
+Communication details:
+Exchanging one-to-one 0.05352 MB in 159 rounds, taking 0.0174008 seconds
+Receiving directly 0.014008 MB in 1512 rounds, taking 0.140927 seconds
+Receiving one-to-one 0.947358 MB in 163 rounds, taking 0 seconds
+Sending directly 0.014008 MB in 1512 rounds, taking 0.0501191 seconds
+Sending one-to-one 0.947358 MB in 162 rounds, taking 0 seconds
+Sending/receiving 0.000144 MB in 9 rounds, taking 0.000722514 seconds
+CPU time = 0.653012
 The following benchmarks are including preprocessing (offline phase).
-Time = 0.112817 seconds 
-Data sent = 0.164593 MB in ~468 rounds (party 1 only; use '-v' for more details)
-Global data sent = 0.329186 MB (all parties)
+Time = 0.822789 seconds 
+Data sent = 1.01503 MB in ~3517 rounds (party 1 only)
+Global data sent = 2.03006 MB (all parties)
+Actual cost of program:
+  Type bit
+         52216        Triples
+Command line: /home/kali/Desktop/YinYang-MB/mp-spdz/Scripts/../semi-party.x 1 jason_aes3 -v -pn 17457 -h localhost -N 2

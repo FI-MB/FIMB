@@ -1,0 +1,6 @@
+Receiving directly 0.208865 MB in 4 rounds, taking 0.000329256 seconds
+Sending directly 8e-06 MB in 1 rounds, taking 7.4852e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.119013 seconds 
+Data sent = 8e-06 MB in ~6 rounds (party 1 only; use '-v' for more details)
+Global data sent = 0.208889 MB (all parties)

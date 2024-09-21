@@ -1,10 +1,46 @@
 Using statistical security parameter 40
-Size of IV_c: 1
+No modulus found in Player-Data//2-Dp-192/Params-Data, generating 192-bit prime
+Size of IV_c: 8
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
+Reading lines.... 
 Reading lines.... 
 true match
+true match
+true match
+true match
+true match
+true match
+true match
+true match
 Final checking result:1
-The keying material for 1: -109418465768470348939181767434173174485
+The keying material for 1: -130476215502525035532880054172051132622
+The keying material for 2: -131893772418851345071950308746955701347
+The keying material for 3: 31188742171247268511373000236329095726
+The keying material for 4: -42848268902476466509640819453453066950
+The keying material for 5: -130476215502525035532880054172051132622
+The keying material for 6: -131893772418851345071950308746955701347
+The keying material for 7: 31188742171247268511373000236329095726
+The keying material for 8: -42848268902476466509640819453453066950
+Compiler: ./compile.py jason_aes3 -B 128
+Spent 0.223172 seconds (0.014152 MB, 3033 rounds) on the online phase and 0.597438 seconds (1.00088 MB, 591 rounds) on the preprocessing/offline phase.
+Communication details:
+Exchanging one-to-one 0.05352 MB in 159 rounds, taking 0.0164115 seconds
+Receiving directly 0.014008 MB in 1512 rounds, taking 0.128816 seconds
+Receiving one-to-one 0.947358 MB in 216 rounds, taking 0 seconds
+Sending directly 0.014008 MB in 1512 rounds, taking 0.0479722 seconds
+Sending one-to-one 0.947358 MB in 216 rounds, taking 0 seconds
+Sending/receiving 0.000144 MB in 9 rounds, taking 0.000415829 seconds
+CPU time = 0.67281
 The following benchmarks are including preprocessing (offline phase).
-Time = 0.112863 seconds 
-Data sent = 0.164593 MB in ~487 rounds (party 0 only; use '-v' for more details)
-Global data sent = 0.329186 MB (all parties)
+Time = 0.822422 seconds 
+Data sent = 1.01503 MB in ~3624 rounds (party 0 only)
+Global data sent = 2.03006 MB (all parties)
+Actual cost of program:
+  Type bit
+         52216        Triples
+Command line: /home/kali/Desktop/YinYang-MB/mp-spdz/Scripts/../semi-party.x 0 jason_aes3 -v -pn 17457 -h localhost -N 2
